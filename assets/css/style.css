@@ -279,6 +279,7 @@ header{
 	max-width: 100%;
 	display: block;
 	position: relative;
+    cursor: pointer;
 }
 
 .port figcaption {
@@ -695,6 +696,9 @@ footer {
 	    width: 30px;
 	    height: 30px;
 	}
+    #about p {
+        font-size: 1.4em;
+    }
 	
 }
 
@@ -709,19 +713,16 @@ footer {
 	font-size: 3em;
 }
 .hire-btn {
-	padding: 20px !important;
+	padding: 17px !important;
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	border-radius: 14px;
 	border: 0;
 	background: orange !important;
 	color: #000;	
 	opacity: 1;
-    -webkit-animation: blink 6s infinite;
-    -moz-animation: blink 6s infinite;
-    animation: blink 6s infinite;
 }
 .hire-btn:hover {
 	color: black;
