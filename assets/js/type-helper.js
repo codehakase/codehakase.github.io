@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function(){
         // backspacing speed
         backSpeed: 0,
         // shuffle the strings
-        shuffle: true,
+        shuffle: false,
         // time before backspacing
         backDelay: 500,
         // Fade out instead of backspace (must use CSS class)
