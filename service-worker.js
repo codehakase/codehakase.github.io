@@ -8,7 +8,7 @@ var _cacheFiles = [
     './',
     './assets/images/bg.jpg',
     './assets/css/style.css',
-    'http://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic',
+    'https://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic',
     './assets/js/app.js'
 ]
 var _cacheName = 'v1';
