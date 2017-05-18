@@ -1,0 +1,28 @@
+{
+  "name": "codehakase-portfolio",
+  "version": "1.0.0",
+  "description": "My Personal Portfolio, showcases my skills and work experiences",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codehakase/codehakase.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "codehakase",
+    "software",
+    "developer"
+  ],
+  "author": "codehakase",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codehakase/codehakase.github.io/issues"
+  },
+  "homepage": "https://github.com/codehakase/codehakase.github.io#readme",
+  "devDependencies": {
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
