@@ -1,3 +1,9 @@
+caches.open('v1').then(function(cache){
+  cache.delete('/*.*').then(function(response) {
+    console.log('previous cache removed!');
+  });
+});
+
 (function($,sr){
 
   // debouncing function from John Hann
