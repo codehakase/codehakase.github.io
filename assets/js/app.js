@@ -1,12 +1,16 @@
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-        .register('./service-worker.js', { scope: './'})
-        .then(function(regServiceWorker) {
-            console.log("Service worker registered");
-        })
-        .catch(function(error) {
-            console.log("Service worker can't load ", error);
-        })
-} else {
-    console.log("HTTP error!");
-}
+$(function() {
+  $(".hidden-bio").hide();
+
+  $(".toggle-hidden-bio").click(function() {
+    if ($(this).html() == "SHOW LESS") {
+      $(".hidden-bio").fadeOut("fast");
+      $(this).text("FULL BIO");
+      return;
+    }
+
+    $(this).text("SHOW LESS");
+    $(".hidden-bio").fadeIn("fast");
+  });
+});
+
+

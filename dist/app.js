@@ -1,0 +1,1 @@
+$(function(){$(".hidden-bio").hide(),$(".toggle-hidden-bio").click(function(){if("SHOW LESS"==$(this).html())return $(".hidden-bio").fadeOut("fast"),void $(this).text("FULL BIO");$(this).text("SHOW LESS"),$(".hidden-bio").fadeIn("fast")})});

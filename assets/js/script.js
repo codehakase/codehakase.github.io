@@ -21,7 +21,7 @@
           timeout = setTimeout(delayed, threshold || 100);
       };
   }
-  // smartresize 
+  // smartresize
   jQuery.fn[sr] = function(fn){  return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); };
 
 })(jQuery,'smartresize');
@@ -37,7 +37,7 @@ var $ = jQuery;
   ///////////////////////////////
 
   function setHomeBannerHeight() {
-    var windowHeight = jQuery(window).height(); 
+    var windowHeight = jQuery(window).height();
     jQuery('#header').height(windowHeight);
   }
 
@@ -47,18 +47,18 @@ var $ = jQuery;
 
   function centerHomeBannerText() {
       var bannerText = jQuery('#header > .center');
-      var bannerTextTop = (jQuery('#header').actual('height')/2) - (jQuery('#header > .center').actual('height')/2) - 40;   
-      bannerText.css('padding-top', bannerTextTop+'px');    
+      var bannerTextTop = (jQuery('#header').actual('height')/2) - (jQuery('#header > .center').actual('height')/2) - 40;
+      bannerText.css('padding-top', bannerTextTop+'px');
       bannerText.show();
   }
 
-  function setHeaderBackground() {    
-    var scrollTop = jQuery(window).scrollTop(); // our current vertical position from the top 
-    
-    if (scrollTop > 300 || jQuery(window).width() < 700) { 
+  function setHeaderBackground() {
+    var scrollTop = jQuery(window).scrollTop(); // our current vertical position from the top
+
+    if (scrollTop > 300 || jQuery(window).width() < 700) {
       jQuery('#header .top').addClass('solid');
     } else {
-      jQuery('#header .top').removeClass('solid');    
+      jQuery('#header .top').removeClass('solid');
     }
   }
 
@@ -78,7 +78,7 @@ var $ = jQuery;
     setHomeBannerHeight();
     centerHomeBannerText();
   });
-  
+
 })();
 
 
@@ -101,13 +101,13 @@ function animationHover(element, animation){
     element = $(element);
     element.hover(
         function() {
-            element.addClass('animated ' + animation);        
+            element.addClass('animated ' + animation);
         },
         function(){
             //wait for animation to finish before removing classes
             window.setTimeout( function(){
                 element.removeClass('animated ' + animation);
-            }, 2000);         
+            }, 2000);
         });
 }
 
@@ -151,35 +151,13 @@ function scroll() {
   ///////////////////////////////
 
  $(document).ready(function() {
- 
+
   $("#testimonial-container").owlCarousel({
- 
+
       navigation : false, // Show next and prev buttons
       slideSpeed : 700,
       paginationSpeed : 400,
       singleItem:true,
   });
- 
+
 });
-
-
-  ///////////////////////////////
-  // google map
-  ///////////////////////////////
-
-function initialize()
-{
-var mapProp = {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-  mapTypeId:google.maps.MapTypeId.ROADMAP,
-  disableDefaultUI: true,
-  scrollwheel: false
-  };
-var map=new google.maps.Map(document.getElementById("googleMap")
-  ,mapProp);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-
-
