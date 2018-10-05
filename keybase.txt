@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/codehakase
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://codehakase.ninja
+  * I am codehakase (https://keybase.io/codehakase) on keybase.
+  * I have a public key ASA6l5ozh92hZt_LqDrHT_9ivQgMaUXGYO5WbEfFsLF5vwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203a979a3387dda166dfcba83ac74fff62bd080c6945c660ee566c47c5b0b179bf0a",
+      "host": "keybase.io",
+      "kid": "01203a979a3387dda166dfcba83ac74fff62bd080c6945c660ee566c47c5b0b179bf0a",
+      "uid": "97c0c9b5d0551a25dca427c537fc9e19",
+      "username": "codehakase"
+    },
+    "merkle_root": {
+      "ctime": 1538697762,
+      "hash": "3d113c65b5f1643ae25a6f0d61eabf60f7947be747493e74a0482d22bd566dcdacba71da4368f814570b4f0eeb3a00f04873d54d1b8c24c23242bd1205797c5a",
+      "hash_meta": "743d8cedcd28076514eb98775b958e9fdbed455268699d80f4069496590a8e47",
+      "seqno": 3747653
+    },
+    "service": {
+      "entropy": "bKOHxovPGiaaawIQXyV2Cak9",
+      "hostname": "codehakase.ninja",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.7.2"
+  },
+  "ctime": 1538697793,
+  "expire_in": 504576000,
+  "prev": "c0cd8843a793a52c8a8f59d2ae1e9a7ebc209332d848517367fc9034f3882a95",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgOpeaM4fdoWbfy6g6x0//Yr0IDGlFxmDuVmxHxbCxeb8Kp3BheWxvYWTESpcCBcQgwM2IQ6eTpSyKj1nSrh6afrwgkzLYSFFzZ/yQNPOIKpXEIHo6ureHkKDe6m29r38sZk0mgt54vz0J9WC0IA8w7EA2AgHCo3NpZ8RA6ZpHhBQcX65cQGhdKhzSfxgASz9+S7YMgaSDptcR4Q4jHJYMrBk/M2kWHL8vRvX6GEC6RAEpObuH58NsgzcYDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGve9H8l54TXCNSHoqqyphclTIN8zmgT4OFFqGR/4uIFo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/codehakase
+
+==================================================================
